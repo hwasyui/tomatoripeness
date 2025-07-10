@@ -1,6 +1,6 @@
 # 🍅 Tomato Ripeness Computer Vision
 
-![Tomato Ripeness Detection](/test_outputs/outputs.jpg)
+![Tomato Ripeness Detection](test_outputs/outputs.jpg)
 
 A computer vision system built using **Python** and **YOLOv8m** to detect and classify tomato ripeness levels from **photos**, **videos**, and **real-time camera input**. This project uses the **TomatOD** dataset to train a model that distinguishes between unripe, semi-ripe, and ripe tomatoes.
 
@@ -83,12 +83,15 @@ python scripts/detect_cam.py
 ``` 
 ⚠️ Ensure your YOLOv8m model weights are in the models/ folder or update the script with the correct path.
 
-👥 Team Members
-Name	GitHub / Handle
-Angelica Suti Whiharto	@hwasyui
-Intan Kumala Pasya	@tannpsy
-Rason Yudha Pati N	@RasonYudha4
-Yoel Heardly Sirait	@heardlyyoel
+---
+| Name | GitHub |
+|------|--------|
+| **Angelica Suti Whiharto** | [@hwasyui](https://github.com/hwasyui) |
+| **Intan Kumala Pasya** | [@tannpsy](https://github.com/tannpsy) |
+| **Rason Yudha Pati N** | [@RasonYudha4](https://github.com/RasonYudha4) |
+| **Yoel Heardly Sirait** | [@heardlyyoel](https://github.com/heardlyyoel) |
+
+---
 
 📌 Repository
 🔗 GitHub: https://github.com/hwasyui/tomatoripeness
