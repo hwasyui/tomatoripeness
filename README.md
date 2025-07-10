@@ -32,8 +32,6 @@ Published by: [Up2Metric](https://up2metric.com)
 The dataset provides annotation for tomato bounding boxes and ripeness stages (unripe, semi-ripe, ripe) with high-quality YOLO-formatted labels.
 
 ## 📁 Project Structure
-
-.
 ├── images/ # Project assets (e.g., tomato.png)
 
 ├── models/ # YOLOv8m trained model weights
@@ -62,35 +60,27 @@ Setup, training, and usage instructions are documented in full here:
 ## 🧪 Quick Start
 
 1. **Clone the repo**
-
-```bash
+``` 
 git clone https://github.com/hwasyui/tomatoripeness.git
 cd tomatoripeness
-bash```
-
-Install dependencies
-```bash
+``` 
+2. **Install dependencies**
+```
 pip install -r requirements.txt
-Run detection
-
-Image
-
-bash
-Copy
-Edit
+``` 
+2. **Run detection**
+a. Image
+``` 
 python scripts/detect_image.py --source path/to/image.jpg
-Video
-
-bash
-Copy
-Edit
+``` 
+b. Video
+``` 
 python scripts/detect_video.py --source path/to/video.mp4
-Camera
-
-bash
-Copy
-Edit
+``` 
+c. Camera
+``` 
 python scripts/detect_cam.py
+``` 
 ⚠️ Ensure your YOLOv8m model weights are in the models/ folder or update the script with the correct path.
 
 👥 Team Members
@@ -102,17 +92,3 @@ Yoel Heardly Sirait	@heardlyyoel
 
 📌 Repository
 🔗 GitHub: https://github.com/hwasyui/tomatoripeness
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want to add:
-
-- A training guide for custom YOLOv8 weights  
-- A performance/mAP evaluation section  
-- Example outputs (e.g., image with bounding boxes)
-
-I'm happy to tailor this further!
