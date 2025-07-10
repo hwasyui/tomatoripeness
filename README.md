@@ -59,16 +59,30 @@ Setup, training, and usage instructions are documented in full here:
 
 ## 🧪 Quick Start
 
-1. **Clone the repo**
+1. **Run the Google Colab Notebook**
+Before using this repo, run the following Google Colab notebook to download the pre-trained model, dataset, and evaluation results:
+📓 **[Run on Colab](https://colab.research.google.com/drive/1dl26p0aNrG-MtFM85WEqU1nBnnd2u2hW?usp=sharing)**
+2. **Extract the Mini Project**
+After the Colab finishes:
+1. Download the `mini_project.zip` file.
+2. Move `mini_project.zip` into the same directory as this GitHub project.
+3. **Unzip it manually** using any extractor tool.
+
+You will find a folder named `runs_extracted/` containing:
+- `train/` — training visualizations  
+- `val/` — validation results  
+- `predict/` — image and video predictions  
+- `weights/best.pt` — the trained YOLOv8 model
+3. **Clone the repo**
 ``` 
 git clone https://github.com/hwasyui/tomatoripeness.git
 cd tomatoripeness
 ``` 
-2. **Install dependencies**
+4. **Install dependencies**
 ```
 pip install -r requirements.txt
-``` 
-2. **Run detection**
+```
+5. **Run detection**
 a. Image
 ``` 
 python scripts/detect_image.py --source path/to/image.jpg
@@ -81,7 +95,6 @@ c. Camera
 ``` 
 python scripts/detect_cam.py
 ``` 
-⚠️ Ensure your YOLOv8m model weights are in the models/ folder or update the script with the correct path.
 
 ---
 | Name | GitHub |
