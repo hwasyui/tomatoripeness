@@ -64,9 +64,9 @@ Before using this repo, run the following Google Colab notebook to download the 
 📓 **[Run on Colab](https://colab.research.google.com/drive/1dl26p0aNrG-MtFM85WEqU1nBnnd2u2hW?usp=sharing)**
 2. **Extract the Mini Project**
 After the Colab finishes:
-1. Download the `mini_project.zip` file.
-2. Move `mini_project.zip` into the same directory as this GitHub project.
-3. **Unzip it manually** using any extractor tool.
+a. Download the `mini_project.zip` file.
+b. Move `mini_project.zip` into the same directory as this GitHub project.
+c. **Unzip it manually** using any extractor tool.
 
 You will find a folder named `runs_extracted/` containing:
 - `train/` — training visualizations  
